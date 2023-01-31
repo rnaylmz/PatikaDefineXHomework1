@@ -5,9 +5,9 @@ import entity.House;
 import entity.SummerHouse;
 import entity.Villa;
 
-public class Generator{
+public final class Generator{
 
-    public BaseHouse[] createAllHouses(){
+    public House[] createAllHouses(){
         House house = new House(2_000_000, 140, 1, 3);
         House house1 = new House(1_400_000,95,1,2);
         House house2 = new House(2_600_000,168,1,3);
