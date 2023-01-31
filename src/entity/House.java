@@ -1,27 +1,27 @@
 package entity;
 
 public class House extends BaseHouse{
-    public House(String housePrice, String meterSquare, int saloon, int room) {
+    public House(double housePrice, int meterSquare, int saloon, int room) {
         super(housePrice, meterSquare, saloon, room);
     }
 
     @Override
-    public String getHousePrice() {
+    public double getHousePrice() {
         return super.getHousePrice();
     }
 
     @Override
-    public void setHousePrice(String housePrice) {
+    public void setHousePrice(double housePrice) {
         super.setHousePrice(housePrice);
     }
 
     @Override
-    public String getMeterSquare() {
+    public int getMeterSquare() {
         return super.getMeterSquare();
     }
 
     @Override
-    public void setMeterSquare(String meterSquare) {
+    public void setMeterSquare(int meterSquare) {
         super.setMeterSquare(meterSquare);
     }
 

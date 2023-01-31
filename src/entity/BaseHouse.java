@@ -1,32 +1,32 @@
 package entity;
 
 public abstract class BaseHouse {
-    private String housePrice;
-    private String meterSquare;
+    private double housePrice;
+    private int meterSquare;
     private int saloon;
     private int room;
 
 
-    public BaseHouse(String housePrice, String meterSquare, int saloon, int room) {
+    public BaseHouse( double housePrice, int meterSquare, int saloon, int room) {
         this.housePrice = housePrice;
         this.meterSquare = meterSquare;
         this.saloon = saloon;
         this.room = room;
     }
 
-    public String getHousePrice() {
+    public double getHousePrice() {
         return housePrice;
     }
 
-    public void setHousePrice(String housePrice) {
+    public void setHousePrice(double housePrice) {
         this.housePrice = housePrice;
     }
 
-    public String getMeterSquare() {
+    public int getMeterSquare() {
         return meterSquare;
     }
 
-    public void setMeterSquare(String meterSquare) {
+    public void setMeterSquare(int meterSquare) {
         this.meterSquare = meterSquare;
     }
 
@@ -45,4 +45,5 @@ public abstract class BaseHouse {
     public void setRoom(int room) {
         this.room = room;
     }
+
 }
