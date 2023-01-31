@@ -1,7 +1,4 @@
-import entity.BaseHouse;
-import entity.House;
-import entity.SummerHouse;
-import entity.Villa;
+
 import generator.Generator;
 import service.Service;
 
@@ -32,6 +29,6 @@ public class Main {
         service.averageMeterSquare(generator.getAllHouseTypesList());
 
 
-        service.whichTypeHouseIsItForRoomAndSaloon(2,4 );
+        service.whichTypeHouseIsItForRoomAndSaloon(1,3);
     }
 }
